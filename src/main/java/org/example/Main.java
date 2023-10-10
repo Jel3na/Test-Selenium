@@ -7,53 +7,29 @@ import java.util.Scanner;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        int x = 523134;
-        int y = 325423;
-        int a = x % y;
 
-        if (a != 0) {
-            if (a > 1000) {
-                System.out.println("Ostatak je veci od 1000!");
-            } else {
-                System.out.println("Ostatk je manji od 1000!");
-            }
+        int[] glavniNiz = new int[3];
+        glavniNiz[0] = 3;
+        glavniNiz[1] = 5;
+        glavniNiz[2] = 8;
 
-        } else {
-            System.out.println("Ostatak pri deljenju je 0!");
+        for (int i = 0; i < glavniNiz.length; i++) {
+            System.out.println(glavniNiz[i]);
         }
 
-    }
+        String[] drugiNiz = {"Pera", "Mika", "Laza"};
+        for(String s:drugiNiz){
+            System.out.println(s);
+        }
 
-//    static void calculatingNumbers(){
-//
-//        Scanner scanner = new Scanner(System.in);
-//
-//        System.out.println("Unesi prvi broj ");
-//        int a = scanner.nextInt();
-//
-//        System.out.println("Unesi drugi broj ");
-//        int b = scanner.nextInt();
-//
-//        System.out.println("Unesi operator ");
-//        String o = scanner.next();
-//
-//        if (o.equals("+")) {
-//            System.out.println("Rezultat je " + (a+b));
-//
-//        }
-//        else if (o.equals("=")) {
-//            System.out.println("Rezultat je " + (a-b));
-//        }
-//        else if (o.equals("*")) {
-//            System.out.println("Rezultat je " + (a*b));
-//        }
-//        else if (o.equals("/")) {
-//            System.out.println("Rezultat je " + (a/b));
-//        }
-//
-//
-//    }
-}
+//        for (int i = 0; i < 3; i++ ) {
+//            for (int j = 0; j < 3; j++) {
+//                System.out.println("");
+
+            }
+        }
+
+
 
 
 
